@@ -20,3 +20,4 @@ msg = connection_sock.recv(1000)
 print("Msg: ", msg)
 
 server_sock.close()
+connection_sock.close()
